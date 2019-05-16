@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 
 const SAMPLE_BARCHART_DATA: any[] = [
-  { data: [65, 59, 80, 81, 57, 54, 30], label: 'Fall Sales'},
-  { data: [25, 39, 20, 41, 56, 53, 30], label: 'Spring Sales'},
+  { data: [2, 5, 4, 3, 5, 3, 3, 4, 8], label: 'My Calls'},
+  { data: [5, 7, 4, 5, 9, 7, 6, 7, 9], label: 'Helpdesk  Calls'},
 ];
 
-const SAMPLE_BARCHART_LABELS: string[] = ['w1', 'w2' , 'w3', 'w4', 'w5', 'w6', 'w7'];
+const SAMPLE_BARCHART_LABELS: string[] = ['10 AM','11 AM','12 PM', '1 PM' , '2 PM', '3 PM', '4 PM', '5 PM', '6 PM'];
 
 @Component({
   selector: 'app-bar-chart',
